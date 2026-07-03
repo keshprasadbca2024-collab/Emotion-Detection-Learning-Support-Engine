@@ -51,3 +51,18 @@ pip install -r requirements.txt
 ```
 
 This command installs all the libraries required to run the project successfully.
+
+
+6. Create the .env Configuration File
+
+Create a file named `.env` in the project folder.
+
+Add the following line:
+
+```env
+GEMINI_API_KEY=your_api_key_here
+```
+
+Replace `your_api_key_here` with your own Gemini API key.
+
+Do not share your API key publicly.
