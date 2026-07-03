@@ -17,3 +17,11 @@ Skill wallet group project Emotion Detection &amp; Learning Support Engine
 7. AI provides personalized feedback and learning recommendations.
 8. User completes the course.
 9. The system generates a certificate.
+
+## Obtain Gemini API Key
+
+1. Open Google AI Studio.
+2. Sign in with your Google account.
+3. Click on "Create API Key".
+4. Copy the generated API Key.
+5. Store the API Key securely and do not share it publicly.
