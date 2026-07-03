@@ -1,12 +1,12 @@
-# Emotion-Detection-Learning-Support-Engine
+ Emotion-Detection-Learning-Support-Engine
 Skill wallet group project Emotion Detection &amp; Learning Support Engine
 
-## Links
+1. Links
 
 - GitHub Repository: https://github.com/keshprasadbca2024-collab/Emotion-Detection-Learning-Support-Engine https://aistudio.google.com/app/apikey
 - Python: https://www.python.org/downloads/
 
-## Project Workflow
+2. Project Workflow
 
 1. Start the AI Learning Management System.
 2. User signs up or logs in.
@@ -18,7 +18,7 @@ Skill wallet group project Emotion Detection &amp; Learning Support Engine
 8. User completes the course.
 9. The system generates a certificate.
 
-## Obtain Gemini API Key
+3. Obtain Gemini API Key
 
 1. Open Google AI Studio.
 2. Sign in with your Google account.
@@ -26,7 +26,8 @@ Skill wallet group project Emotion Detection &amp; Learning Support Engine
 4. Copy the generated API Key.
 5. Store the API Key securely and do not share it publicly.
 
-## Install Python & Create Virtual Environment
+
+4.  Install Python & Create Virtual Environment
 
 ### Install Python
 1. Download Python from https://www.python.org/downloads/
@@ -40,16 +41,13 @@ Skill wallet group project Emotion Detection &amp; Learning Support Engine
 4. Install the required packages using:
    pip install -r requirements.txt
 
-## Install Python & Create Virtual Environment
 
-### Install Python
-1. Download Python from https://www.python.org/downloads/
-2. Install Python and enable "Add Python to PATH".
+5. Install Project Dependencies
 
-### Create Virtual Environment
-1. Open Terminal or Command Prompt.
-2. Run:
-   python -m venv venv
-3. Activate the virtual environment.
-4. Install the required packages using:
-   pip install -r requirements.txt
+After creating and activating the virtual environment, install all required project packages using the following command:
+
+```bash
+pip install -r requirements.txt
+```
+
+This command installs all the libraries required to run the project successfully.
