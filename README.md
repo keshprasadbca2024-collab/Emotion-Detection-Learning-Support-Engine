@@ -25,3 +25,31 @@ Skill wallet group project Emotion Detection &amp; Learning Support Engine
 3. Click on "Create API Key".
 4. Copy the generated API Key.
 5. Store the API Key securely and do not share it publicly.
+
+## Install Python & Create Virtual Environment
+
+### Install Python
+1. Download Python from https://www.python.org/downloads/
+2. Install Python and enable "Add Python to PATH".
+
+### Create Virtual Environment
+1. Open Terminal or Command Prompt.
+2. Run:
+   python -m venv venv
+3. Activate the virtual environment.
+4. Install the required packages using:
+   pip install -r requirements.txt
+
+## Install Python & Create Virtual Environment
+
+### Install Python
+1. Download Python from https://www.python.org/downloads/
+2. Install Python and enable "Add Python to PATH".
+
+### Create Virtual Environment
+1. Open Terminal or Command Prompt.
+2. Run:
+   python -m venv venv
+3. Activate the virtual environment.
+4. Install the required packages using:
+   pip install -r requirements.txt
