@@ -1,1 +1,16 @@
-Entity-Relationship (ER) diagram for the AI
+Entity-Relationship (ER) diagram for the AI# Entity-Relationship (ER) Diagram for AI Learning Management System
+
+## Entities
+- Student
+- Course
+- Instructor
+- Lesson
+- Quiz
+- Certificate
+
+## Relationships
+- Student enrolls in Course
+- Instructor teaches Course
+- Course contains Lesson
+- Course contains Quiz
+- Student receives Certificate
