@@ -83,3 +83,17 @@ GEMINI_API_KEY=your_api_key_here
 Replace `your_api_key_here` with your own Gemini API key.
 
 Do not share your API key publicly.
+
+
+8. Verify Model and Data Directories
+
+The project structure has been verified.
+
+Required directories:
+- data/
+- models/
+- notebooks/
+- src/
+- app/
+
+These directories will be used for dataset storage, trained models, source code, notebooks, and the application.
