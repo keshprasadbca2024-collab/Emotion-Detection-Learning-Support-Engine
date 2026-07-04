@@ -1,12 +1,29 @@
  Emotion-Detection-Learning-Support-Engine
 Skill wallet group project Emotion Detection &amp; Learning Support Engine
 
-1. Links
+1. Entity-Relationship (ER) diagram for the AI# Entity-Relationship (ER) Diagram for AI Learning Management System
+
+## Entities
+- Student
+- Course
+- Instructor
+- Lesson
+- Quiz
+- Certificate
+
+## Relationships
+- Student enrolls in Course
+- Instructor teaches Course
+- Course contains Lesson
+- Course contains Quiz
+- Student receives Certificate
+
+2. Links
 
 - GitHub Repository: https://github.com/keshprasadbca2024-collab/Emotion-Detection-Learning-Support-Engine https://aistudio.google.com/app/apikey
 - Python: https://www.python.org/downloads/
 
-2. Project Workflow
+3. Project Workflow
 
 1. Start the AI Learning Management System.
 2. User signs up or logs in.
@@ -18,7 +35,7 @@ Skill wallet group project Emotion Detection &amp; Learning Support Engine
 8. User completes the course.
 9. The system generates a certificate.
 
-3. Obtain Gemini API Key
+4. Obtain Gemini API Key
 
 1. Open Google AI Studio.
 2. Sign in with your Google account.
@@ -27,7 +44,7 @@ Skill wallet group project Emotion Detection &amp; Learning Support Engine
 5. Store the API Key securely and do not share it publicly.
 
 
-4.  Install Python & Create Virtual Environment
+5.  Install Python & Create Virtual Environment
 
 ### Install Python
 1. Download Python from https://www.python.org/downloads/
@@ -42,7 +59,7 @@ Skill wallet group project Emotion Detection &amp; Learning Support Engine
    pip install -r requirements.txt
 
 
-5. Install Project Dependencies
+6. Install Project Dependencies
 
 After creating and activating the virtual environment, install all required project packages using the following command:
 
@@ -53,7 +70,7 @@ pip install -r requirements.txt
 This command installs all the libraries required to run the project successfully.
 
 
-6. Create the .env Configuration File
+7. Create the .env Configuration File
 
 Create a file named `.env` in the project folder.
 
