@@ -182,3 +182,9 @@ Saved model ko local environment me integrate karke run kiya gaya.
 
 ### Testing  
 Model ko local system par run karke predictions check kiye gaye taaki ensure ho sake ki model properly work kar raha hai  
+
+16. Text Preprocessing & Keyword Enhancement
+
+Is step me raw text ko clean kiya gaya hai. Text ko lowercase me convert karke punctuation, stopwords aur unnecessary words remove kiye gaye. Uske baad tokenization ki help se text ko split kiya gaya.
+
+Important keywords ko identify karke TF-IDF ke through highlight kiya gaya taaki model ko useful information mil sake.
