@@ -135,3 +135,12 @@ Example:
 - Removed unnecessary words (stop words), if required.
 - Performed tokenization to split text into individual words.
 - Prepared the processed data for model training.
+
+12. BiLSTM Model Training
+
+- Created the BiLSTM model.
+- Added all required layers.
+- Compiled the model.
+- Trained it using the training data.
+- Checked the accuracy and loss after each epoch.
+- Saved the trained model.
