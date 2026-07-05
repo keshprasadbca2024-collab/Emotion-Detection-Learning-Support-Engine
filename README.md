@@ -1,5 +1,4 @@
  Emotion-Detection-Learning-Support-Engine
-Skill wallet group project Emotion Detection &amp; Learning Support Engine
 
 1. Entity-Relationship (ER) diagram for the AI# Entity-Relationship (ER) Diagram for AI Learning Management System
 
