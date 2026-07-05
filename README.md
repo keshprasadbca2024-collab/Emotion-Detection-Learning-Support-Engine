@@ -97,3 +97,16 @@ Required directories:
 - app/
 
 These directories will be used for dataset storage, trained models, source code, notebooks, and the application.
+
+9. Prepare Project Folder Structure
+
+Project folder structure is prepared.
+
+Folders:
+- data
+- models
+- src
+- app
+- notebooks
+
+These folders are used to keep project files in the right place.
