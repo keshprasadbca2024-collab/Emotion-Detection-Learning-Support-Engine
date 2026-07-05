@@ -24,6 +24,7 @@
 
 3. Project Workflow
 
+
 1. Start the AI Learning Management System.
 2. User signs up or logs in.
 3. User selects a course.
