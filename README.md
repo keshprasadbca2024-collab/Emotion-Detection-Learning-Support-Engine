@@ -144,3 +144,14 @@ Example:
 - Trained it using the training data.
 - Checked the accuracy and loss after each epoch.
 - Saved the trained model.
+
+13. Domain-Adaptive Fine-Tuning
+
+Is step mein model ko hamare project ke domain ke data par aur train kiya gaya. Isse model ko domain se related words aur sentence pattern ko samajhne mein madad mili.
+
+- Domain-specific dataset ko prepare kiya.
+- Data ko clean karke training ke liye use kiya.
+- Pre-trained model ko is data par fine-tune kiya.
+- Training ke baad model ko save kiya aur next step ke liye use kiya.
+
+Is process se model ki performance aur prediction accuracy mein improvement dekhne ko mila.
