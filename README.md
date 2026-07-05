@@ -125,3 +125,13 @@ Install the required Python libraries before running the project.
 Example:
 ```python
 !pip install tensorflow opencv-python matplotlib numpy pandas
+
+11. Data Preprocessing & Tokenization
+
+- Loaded the dataset.
+- Checked and removed missing values (if any).
+- Cleaned the text by removing special characters and extra spaces.
+- Converted all text to lowercase.
+- Removed unnecessary words (stop words), if required.
+- Performed tokenization to split text into individual words.
+- Prepared the processed data for model training.
