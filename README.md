@@ -155,3 +155,11 @@ Is step mein model ko hamare project ke domain ke data par aur train kiya gaya. 
 - Training ke baad model ko save kiya aur next step ke liye use kiya.
 
 Is process se model ki performance aur prediction accuracy mein improvement dekhne ko mila.
+
+14. BERT Model Fine-Tuning
+
+- Loaded the pre-trained BERT model.
+- Used the processed training and validation data.
+- Fine-tuned the model using the training dataset.
+- Monitored training and validation performance.
+- Saved the trained model for testing and future use.
