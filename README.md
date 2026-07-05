@@ -110,3 +110,18 @@ Folders:
 - notebooks
 
 These folders are used to keep project files in the right place.
+
+10. Kaggle Setup
+
+### Enable GPU
+- Open the Kaggle Notebook.
+- Go to **Settings**.
+- Select **GPU** as the Accelerator.
+- Save the settings.
+
+### Install Required Libraries
+Install the required Python libraries before running the project.
+
+Example:
+```python
+!pip install tensorflow opencv-python matplotlib numpy pandas
