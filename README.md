@@ -163,3 +163,22 @@ Is process se model ki performance aur prediction accuracy mein improvement dekh
 - Fine-tuned the model using the training dataset.
 - Monitored training and validation performance.
 - Saved the trained model for testing and future use.
+
+15. Model Export & Local Integration
+
+Training complete hone ke baad model ko save kiya gaya taaki future me use kiya ja sake. Saved model ko local system me load karke testing aur prediction kiya gaya.
+
+### Model Export  
+Model ko trained weights ke saath save kiya gaya hai (jaise `.h5`, `.pkl` ya `.pt` format). Is file me model ki architecture aur learned parameters dono store hote hain.
+
+### Local Integration  
+Saved model ko local environment me integrate karke run kiya gaya.
+
+**Steps:**
+- Model file ko project folder me add kiya  
+- Required libraries install ki  
+- Model ko load karke sample input par test kiya  
+- Output verify kiya ki model sahi kaam kar raha hai  
+
+### Testing  
+Model ko local system par run karke predictions check kiye gaye taaki ensure ho sake ki model properly work kar raha hai  
