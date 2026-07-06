@@ -165,10 +165,10 @@ Is process se model ki performance aur prediction accuracy mein improvement dekh
 
 15. Model Export & Local Integration
 
-Training complete hone ke baad model ko save kiya gaya taaki future me use kiya ja sake. Saved model ko local system me load karke testing aur prediction kiya gaya.
+Training complete hone ke baad model ko save kiya gaya taaki future me use kiya ja sake.Saved model ko local system me load karke testing aur prediction kiya gaya.
 
 ### Model Export  
-Model ko trained weights ke saath save kiya gaya hai (jaise `.h5`, `.pkl` ya `.pt` format). Is file me model ki architecture aur learned parameters dono store hote hain.
+Model ko trained weights ke saath save kiya gaya hai (jaise `.h5`, `.pkl` ya `.pt` format).Is file me model ki architecture aur learned parameters dono store hote hain.
 
 ### Local Integration  
 Saved model ko local environment me integrate karke run kiya gaya.
@@ -191,28 +191,47 @@ Important keywords ko identify karke TF-IDF ke through highlight kiya gaya taaki
 
 17.BiLSTM Classifier (5-Class Softmax)
 
-A BiLSTM model was used to classify text into five emotion categories. The final layer uses Softmax activation to predict the most suitable emotion label for each input.
+A BiLSTM model was used to classify text into five emotion categories.
+The final layer uses Softmax activation to predict the most suitable emotion label for each input.
 
 18. BERT Classifier with Class Weighting & Keyword Adjustments
 
-A BERT classifier was used for emotion detection. Class weighting was applied to handle imbalanced data, and keyword adjustments were added to improve prediction accuracy.
+A BERT classifier was used for emotion detection.
+Class weighting was applied to handle imbalanced data, and keyword adjustments were added to improve prediction accuracy.
 
 19. Mixed-Emotion Detection (≥15% Secondary Scores)
-The system can detect multiple emotions in a single text. If a secondary emotion has a confidence score of 15% or more, it is also included in the prediction.
+
+The system can detect multiple emotions in a single text.
+If a secondary emotion has a confidence score of 15% or more, it is also included in the prediction.
 
 20. Unified Prediction Schema
-The project uses a unified prediction schema to keep the output format consistent for all emotion detection models. The prediction includes the primary emotion, confidence score, and secondary emotions (if available). This common structure makes the results easy to understand and helps integrate different models into a single system.
+
+The project uses a unified prediction schema to keep the output format consistent for all emotion detection models.
+The prediction includes the primary emotion, confidence score, and secondary emotions (if available).
+This common structure makes the results easy to understand and helps integrate different models into a single system.
 
 21.CSV Persistence & Cached Model Loading
-The project stores prediction results in a CSV file for future reference and analysis. Trained models are loaded using caching to reduce loading time and improve application performance. This helps the system respond faster and avoids loading the model repeatedly.
+
+The project stores prediction results in a CSV file for future reference and analysis.
+Trained models are loaded using caching to reduce loading time and improve application performance.
+This helps the system respond faster and avoids loading the model repeatedly.
 
 22. Capture Field + Problem, Build Gemini Prompt with Emotion/Confidence
-This information is used to build a Gemini prompt by combining the user's problem, detected emotion, and confidence score. As a result, Gemini can generate responses that are more accurate, relevant, and suitable for the user's emotional condition.
+
+This information is used to build a Gemini prompt by combining the user's problem, detected emotion, and confidence score.
+As a result, Gemini can generate responses that are more accurate, relevant, and suitable for the user's emotional condition.
 
 23.Generate Empathetic, Field-Aware Responses; Fallback to Templates
-The system generates responses based on the user's problem and detected emotion. It uses Gemini AI to provide supportive, relevant, and context-aware suggestions. The response is designed to match the user's emotional state and the selected field.
-If the AI service is unavailable or does not return a valid response, the system automatically uses predefined response templates. This ensures that the user always receives a meaningful and helpful reply without interruption.
+
+The system generates responses based on the user's problem and detected emotion.
+It uses Gemini AI to provide supportive, relevant, and context-aware suggestions.
+The response is designed to match the user's emotional state and the selected field.
+If the AI service is unavailable or does not return a valid response, the system automatically uses predefined response templates.
+This ensures that the user always receives a meaningful and helpful reply without interruption.
 
 24. Regenerate Responses When Input/AI Toggle Changes; Keep Scores in Sync
-The system automatically regenerates the response whenever the user changes the input text or switches the AI option. This ensures that the displayed result always matches the latest input and selected settings.
-The detected emotion, confidence score, and generated response are updated together to keep the information consistent. This synchronization helps avoid outdated results and provides users with accurate and reliable feedback throughout the interaction.
+
+The system automatically regenerates the response whenever the user changes the input text or switches the AI option.
+ This ensures that the displayed result always matches the latest input and selected settings.
+The detected emotion, confidence score, and generated response are updated together to keep the information consistent.
+ This synchronization helps avoid outdated results and provides users with accurate and reliable feedback throughout the interaction.
