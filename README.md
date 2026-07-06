@@ -187,3 +187,8 @@ Model ko local system par run karke predictions check kiye gaye taaki ensure ho 
 Is step me raw text ko clean kiya gaya hai. Text ko lowercase me convert karke punctuation, stopwords aur unnecessary words remove kiye gaye. Uske baad tokenization ki help se text ko split kiya gaya.
 
 Important keywords ko identify karke TF-IDF ke through highlight kiya gaya taaki model ko useful information mil sake.
+
+
+17.BiLSTM Classifier (5-Class Softmax)
+
+A BiLSTM model was used to classify text into five emotion categories. The final layer uses Softmax activation to predict the most suitable emotion label for each input.
