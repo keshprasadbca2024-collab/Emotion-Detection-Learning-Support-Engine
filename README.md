@@ -202,3 +202,6 @@ The system can detect multiple emotions in a single text. If a secondary emotion
 
 20. Unified Prediction Schema
 The project uses a unified prediction schema to keep the output format consistent for all emotion detection models. The prediction includes the primary emotion, confidence score, and secondary emotions (if available). This common structure makes the results easy to understand and helps integrate different models into a single system.
+
+21.CSV Persistence & Cached Model Loading
+The project stores prediction results in a CSV file for future reference and analysis. Trained models are loaded using caching to reduce loading time and improve application performance. This helps the system respond faster and avoids loading the model repeatedly.
