@@ -208,3 +208,7 @@ The project stores prediction results in a CSV file for future reference and ana
 
 22. Capture Field + Problem, Build Gemini Prompt with Emotion/Confidence
 This information is used to build a Gemini prompt by combining the user's problem, detected emotion, and confidence score. As a result, Gemini can generate responses that are more accurate, relevant, and suitable for the user's emotional condition.
+
+23.Generate Empathetic, Field-Aware Responses; Fallback to Templates
+The system generates responses based on the user's problem and detected emotion. It uses Gemini AI to provide supportive, relevant, and context-aware suggestions. The response is designed to match the user's emotional state and the selected field.
+If the AI service is unavailable or does not return a valid response, the system automatically uses predefined response templates. This ensures that the user always receives a meaningful and helpful reply without interruption.
