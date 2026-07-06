@@ -212,3 +212,7 @@ This information is used to build a Gemini prompt by combining the user's proble
 23.Generate Empathetic, Field-Aware Responses; Fallback to Templates
 The system generates responses based on the user's problem and detected emotion. It uses Gemini AI to provide supportive, relevant, and context-aware suggestions. The response is designed to match the user's emotional state and the selected field.
 If the AI service is unavailable or does not return a valid response, the system automatically uses predefined response templates. This ensures that the user always receives a meaningful and helpful reply without interruption.
+
+24. Regenerate Responses When Input/AI Toggle Changes; Keep Scores in Sync
+The system automatically regenerates the response whenever the user changes the input text or switches the AI option. This ensures that the displayed result always matches the latest input and selected settings.
+The detected emotion, confidence score, and generated response are updated together to keep the information consistent. This synchronization helps avoid outdated results and provides users with accurate and reliable feedback throughout the interaction.
