@@ -196,3 +196,6 @@ A BiLSTM model was used to classify text into five emotion categories. The final
 18. BERT Classifier with Class Weighting & Keyword Adjustments
 
 A BERT classifier was used for emotion detection. Class weighting was applied to handle imbalanced data, and keyword adjustments were added to improve prediction accuracy.
+
+19. Mixed-Emotion Detection (≥15% Secondary Scores)
+The system can detect multiple emotions in a single text. If a secondary emotion has a confidence score of 15% or more, it is also included in the prediction.
