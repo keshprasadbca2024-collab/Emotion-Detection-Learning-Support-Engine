@@ -199,3 +199,6 @@ A BERT classifier was used for emotion detection. Class weighting was applied to
 
 19. Mixed-Emotion Detection (≥15% Secondary Scores)
 The system can detect multiple emotions in a single text. If a secondary emotion has a confidence score of 15% or more, it is also included in the prediction.
+
+20. Unified Prediction Schema
+The project uses a unified prediction schema to keep the output format consistent for all emotion detection models. The prediction includes the primary emotion, confidence score, and secondary emotions (if available). This common structure makes the results easy to understand and helps integrate different models into a single system.
