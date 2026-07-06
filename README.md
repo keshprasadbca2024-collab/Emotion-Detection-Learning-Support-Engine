@@ -192,3 +192,7 @@ Important keywords ko identify karke TF-IDF ke through highlight kiya gaya taaki
 17.BiLSTM Classifier (5-Class Softmax)
 
 A BiLSTM model was used to classify text into five emotion categories. The final layer uses Softmax activation to predict the most suitable emotion label for each input.
+
+18. BERT Classifier with Class Weighting & Keyword Adjustments
+
+A BERT classifier was used for emotion detection. Class weighting was applied to handle imbalanced data, and keyword adjustments were added to improve prediction accuracy.
