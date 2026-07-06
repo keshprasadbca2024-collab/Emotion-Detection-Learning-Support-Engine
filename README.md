@@ -205,3 +205,6 @@ The project uses a unified prediction schema to keep the output format consisten
 
 21.CSV Persistence & Cached Model Loading
 The project stores prediction results in a CSV file for future reference and analysis. Trained models are loaded using caching to reduce loading time and improve application performance. This helps the system respond faster and avoids loading the model repeatedly.
+
+22. Capture Field + Problem, Build Gemini Prompt with Emotion/Confidence
+This information is used to build a Gemini prompt by combining the user's problem, detected emotion, and confidence score. As a result, Gemini can generate responses that are more accurate, relevant, and suitable for the user's emotional condition.
